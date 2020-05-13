@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Resep NEw</string>
+    <string name="name">name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="image">Link Image</string>
+    <string name="password">Password</string>
+    <string name="form_register">Form Register</string>
+    <string name="login">Login</string>
+    <string name="apakah_belum_punya_akun_register_sekarang">Apakah belum punya akun? Register sekarang</string>
+    <string name="welcome">WELCOME</string>
+</resources>
