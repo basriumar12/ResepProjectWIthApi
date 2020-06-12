@@ -29,7 +29,7 @@ public class LoginPresenter implements Presenter<LoginVIew> {
         loginVIew = null;
     }
 
-    //method
+    //method login
     void Login(final String email, String pass) {
         if (email.isEmpty() || pass.isEmpty()) {
             loginVIew.showMessage("Email atau Password tidak bisa kosong");
