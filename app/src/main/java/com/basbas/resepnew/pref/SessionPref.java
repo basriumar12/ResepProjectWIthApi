@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 import com.basbas.resepnew.login.LoginActivity;
-import com.basbas.resepnew.MainActivity;
+import com.basbas.resepnew.main.MainActivity;
 
 
 /**

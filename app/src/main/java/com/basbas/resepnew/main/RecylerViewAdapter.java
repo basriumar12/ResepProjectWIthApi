@@ -1,4 +1,4 @@
-package com.basbas.resepnew;
+package com.basbas.resepnew.main;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.basbas.resepnew.DetailResepActivity;
+import com.basbas.resepnew.R;
 import com.basbas.resepnew.model.ResepItem;
 import com.squareup.picasso.Picasso;
 

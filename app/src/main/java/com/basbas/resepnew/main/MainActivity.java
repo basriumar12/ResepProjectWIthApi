@@ -1,4 +1,4 @@
-package com.basbas.resepnew;
+package com.basbas.resepnew.main;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +14,9 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.basbas.resepnew.AddResepActivity;
+import com.basbas.resepnew.Constant;
+import com.basbas.resepnew.R;
 import com.basbas.resepnew.model.ResepItem;
 import com.basbas.resepnew.model.ResponseGetAllDataResep;
 import com.basbas.resepnew.network.RestApi;
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton addData;
     ProgressBar progressBar;
     SessionPref sessionPref;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

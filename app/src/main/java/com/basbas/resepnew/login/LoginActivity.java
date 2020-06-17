@@ -12,9 +12,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.basbas.resepnew.MainActivity;
+import com.basbas.resepnew.main.MainActivity;
 import com.basbas.resepnew.R;
 import com.basbas.resepnew.RegisterActivity;
+import com.basbas.resepnew.main.MainActivity2;
 import com.basbas.resepnew.model.ResponseData;
 import com.basbas.resepnew.network.RestApi;
 import com.basbas.resepnew.network.RetroServer;
@@ -79,7 +80,7 @@ public class LoginActivity extends AppCompatActivity implements LoginVIew {
                         sessionPref.createLoginSession(email);
                         pdLogin.setVisibility(View.GONE);
                         finish();
-                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                        startActivity(new Intent(LoginActivity.this, MainActivity2.class));
                         Toast.makeText(LoginActivity.this, "Berhasil Login", Toast.LENGTH_SHORT).show();
                     } else {
                         Toast.makeText(LoginActivity.this, "Gagal Login", Toast.LENGTH_SHORT).show();

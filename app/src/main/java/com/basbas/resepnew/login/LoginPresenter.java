@@ -1,11 +1,7 @@
 package com.basbas.resepnew.login;
 
-import android.content.Intent;
 import android.util.Log;
-import android.view.View;
-import android.widget.Toast;
 
-import com.basbas.resepnew.MainActivity;
 import com.basbas.resepnew.base.Presenter;
 import com.basbas.resepnew.model.ResponseData;
 import com.basbas.resepnew.network.RestApi;
